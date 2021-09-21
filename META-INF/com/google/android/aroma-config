@@ -105,7 +105,7 @@ selectbox(
   "\nCPU High Cluster Voltage Offset","<@center><b>\n<~text_cpu_big_adjust>\n</b></@>","","cpu_big_undervolt.prop",
   "-130mv","<~text_dang>",0,
   "-120mv","<~text_dang>",0,
-  "-110mv","",0,
+  "-110mv","<~text_dang>",0,
   "-100mv","",0,
   "-90mv","",0,
   "-80mv","",0,
@@ -127,7 +127,7 @@ selectbox(
   "+80mv","",0,
   "+90mv","",0,
   "+100mv","",0,
-  "+110mv","",0,
+  "+110mv","<~text_dang>",0,
   "+120mv","<~text_dang>",0,
   "+130mv","<~text_dang>",0
 );
@@ -138,7 +138,7 @@ selectbox(
   "-140mv","<~text_dang>",0,
   "-130mv","<~text_dang>",0,
   "-120mv","<~text_dang>",0,
-  "-110mv","",0,
+  "-110mv","<~text_dang>",0,
   "-100mv","",0,
   "-90mv","",0,
   "-80mv","",0,
@@ -160,7 +160,7 @@ selectbox(
   "+80mv","",0,
   "+90mv","",0,
   "+100mv","",0,
-  "+110mv","",0,
+  "+110mv","<~text_dang>",0,
   "+120mv","<~text_dang>",0,
   "+130mv","<~text_dang>",0,
   "+140mv","<~text_dang>",0,
@@ -169,6 +169,9 @@ selectbox(
 
 selectbox(
   "\nGPU voltage offset","<@center><b>\n<~text_gpu_adjust>\n</b></@>","","gpu_undervolt.prop",
+  "-250mv","<~text_dang>",0,
+  "-240mv","<~text_dang>",0,
+  "-230mv","<~text_dang>",0,
   "-220mv","<~text_dang>",0,
   "-210mv","<~text_dang>",0,
   "-200mv","<~text_dang>",0,
